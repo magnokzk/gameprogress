@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: jogos
+  datasource:
+    url: jdbc:postgresql://localhost:5433/jogos
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always

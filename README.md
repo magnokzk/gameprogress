@@ -35,7 +35,7 @@ Isso iniciará os contêineres do PostgreSQL e do pgAdmin em segundo plano.
 ## Conectar ao pgAdmin
 ### Acesso ao pgAdmin
 
-1. Abra um navegador e acesse http://localhost:8080.
+1. Abra um navegador e acesse http://localhost:5050.
 2. Login:
      - Email: admin@example.com
      - Senha: admin

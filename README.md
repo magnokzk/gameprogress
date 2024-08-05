@@ -46,7 +46,7 @@ Isso iniciará os contêineres do PostgreSQL e do pgAdmin em segundo plano.
 2. Na aba "General" (Geral), insira um nome para a conexão, por exemplo, PostgreSQL Local.
 3. Na aba "Connection" (Conexão), preencha os seguintes campos:
    - Host name/address: db
-   - Port: 5432
+   - Port: 5433
    - Maintenance database: postgres
    - Username: postgres
    - Password: admin

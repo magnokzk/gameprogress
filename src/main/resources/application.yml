@@ -1,6 +1,6 @@
 spring:
   application:
-    name: jogos
+    name: gameprogress
   datasource:
     url: jdbc:postgresql://localhost:5433/jogos
     username: postgres

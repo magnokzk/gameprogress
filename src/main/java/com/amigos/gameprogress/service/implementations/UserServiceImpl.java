@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public LoginUserResponse loginUser(LoginUserRequest request) throws Exception {
+    public LoginUserResponse loginUser(LoginUserRequest request) {
         UserEntity userEntity = userRepository.findByUserName(request.userName)
                 .orElseThrow(() -> new ExpectedException("user.notFound"));
         if(!HashUtil.verifyHash(request.password, userEntity.getPassword()))

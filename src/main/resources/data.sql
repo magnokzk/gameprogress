@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS jogos.users (
-    id SERIAL PRIMARY KEY,               -- Campo identificador único com auto incremento
+    oid_user SERIAL PRIMARY KEY,               -- Campo identificador único com auto incremento
     username VARCHAR(50) UNIQUE NOT NULL,  -- Nome de usuário único e obrigatório
     password VARCHAR(255) NOT NULL,        -- Senha do usuário
     nome_completo VARCHAR(255) NOT NULL,   -- Nome completo do usuário

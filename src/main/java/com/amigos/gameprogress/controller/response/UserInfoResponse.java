@@ -2,17 +2,21 @@ package com.amigos.gameprogress.controller.response;
 
 import lombok.*;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class LoginUserResponse {
+public class UserInfoResponse {
 
     private Long idUser;
     private String userName;
-    private String token;
-    private String nome;
+    private String nomeCompleto;
     private String email;
+    private LocalDate dataNascimento;
+    private LocalDateTime dataCadastro;
 
 }
